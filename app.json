@@ -1,0 +1,32 @@
+{
+  "name": "Telegram ID Seller Bot",
+  "description": "Automated Telegram ID selling bot with Auto-OTP fetcher.",
+  "repository": "https://github.com/your-username/your-repo-name",
+  "logo": "https://telegra.ph/file/your-image-id.jpg",
+  "keywords": ["telegram", "bot", "python", "telethon"],
+  "env": {
+    "API_ID": {
+      "description": "Get this from my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this from my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Get this from @BotFather",
+      "value": ""
+    },
+    "ADMIN_ID": {
+      "description": "Your Telegram User ID",
+      "value": ""
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
+
